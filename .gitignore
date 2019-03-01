@@ -1,0 +1,13 @@
+# IDE
+journalizer.kdev4
+journalizer.kdev4/*
+.kdev4
+.kdev4/*
+
+# Virtual Environment
+env
+env/*
+
+# Local files
+local_files
+local_files/*
