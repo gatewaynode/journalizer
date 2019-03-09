@@ -1,5 +1,5 @@
 Journalizer v0.1
-===============+
+================
 This is a basic daily journal management tool built around Vim in Python.  Functionality is just to add time stamped text entries to an organized journal space in your home directory through a simple CLI command.  It is designed around simplicity and portability.
 
 Requirements
