@@ -15,3 +15,9 @@ test:
 		--cov-report=term \
 		--cov-report=html:coverage-report \
 		tests/
+BuildLocal:
+	if [ -d "build" ]; then rm -rf build; fi
+	if [ -d "dist" ]; then rm -rf dist; fi
+	if [ -f "~/.local/bin/jo" ]; then rm -rf ~/.local/bin/jo; fi
+	pyinstaller --onefile journalizer.py
+	cp dist/journalizer ~/.local/bin/jo

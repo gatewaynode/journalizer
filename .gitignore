@@ -11,3 +11,14 @@ env/*
 # Local files
 local_files
 local_files/*
+
+# Pyinstaller files
+build
+build/*
+dist
+dist/*
+
+# Yah
+__pycache__
+__pycache__/*
+journalizer.spec
