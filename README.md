@@ -5,7 +5,7 @@ This is a basic daily journal management tool built around Vim in Python.  Funct
 Requirements
 ------------
 * [Vim](https://www.vim.org/) is the text editor used, it must be installed first. 
-* [Python 3](https://www.python.org/downloads/) is necessary if there is not a 
+* [Python 3](https://www.python.org/downloads/) is necessary if there is not a prebuilt binary.
 
 Install
 -------
