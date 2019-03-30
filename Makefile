@@ -18,7 +18,7 @@ test:
 build:
 	pyinstaller --onefile journalizer.py
 install:
-	if [ -d "build" ]; then rm -rf build; fi
-	if [ -d "dist" ]; then rm -rf dist; fi
 	if [ -f "~/.local/bin/jo" ]; then rm -rf ~/.local/bin/jo; fi
 	cp dist/journalizer ~/.local/bin/jo
+	if [ -d "build" ]; then rm -rf build; fi
+	if [ -d "dist" ]; then rm -rf dist; fi
