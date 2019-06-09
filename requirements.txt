@@ -1,6 +1,14 @@
 altgraph==0.16.1
+appdirs==1.4.3
+attrs==19.1.0
+black==19.3b0
+Click==7.0
 future==0.17.1
+gitdb2==2.0.5
+GitPython==2.1.11
 macholib==1.11
 pefile==2018.8.8
 pkg-resources==0.0.0
 PyInstaller==3.4
+smmap2==2.0.5
+toml==0.10.0
